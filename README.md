@@ -9,16 +9,16 @@ The majority code is present in /QuizAPP/src/quizapp/ waiting for you :)
 
 ## **How to Run**
 1. **Prerequisites:**
-   - Java Development Kit (JDK) installed.
-   - Apache POI library included in the project dependencies.
+   + Java Development Kit (JDK) installed.
+   + Apache POI library included in the project dependencies.
 
 2. **Setup:**
-   - Clone the repository:  
-   - Open the project in your preferred IDE (we used apache netbeans).
-   - Ensure all required dependencies are added to the project classpath.
+   + Clone the repository:  
+   + Open the project in your preferred IDE (we used apache netbeans).
+   + Ensure all required dependencies are added to the project classpath.
 
 3. **Run:**
-   - Compile and run the main class QUIZAPP.java present in "/QuizAPP/src/quizapp/QuizAPP.java".
+   + Compile and run the main class QUIZAPP.java present in "/QuizAPP/src/quizapp/QuizAPP.java".
 
 ---
 
