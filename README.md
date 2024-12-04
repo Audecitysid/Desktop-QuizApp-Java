@@ -9,22 +9,13 @@ The application features a robust backend for generating, managing, and evaluati
 
 ## **Features**
 - **GUI Development:** Interactive user interface built with Swing and AWT.
-- **Asynchronous Programming:** Ensures responsiveness even during heavy operations like file handling or internet connectivity checks.
 - **Quiz Management:** 
   - Supports theory and practical quizzes.
   - Dynamically generates quizzes with randomized, non-repeating questions.
 - **File Operations:** Automated creation and management of quiz-related documents in various formats (DOCX, XLSX, PPTX).
-- **Internet Connectivity:** Detects internet availability to fetch or validate real-time data.
-- **Time and Date Handling:** Supports both offline and online synchronization of date and time.
+- **Internet Connectivity:** Detects internet availability to fetch or validate real-time data for auth.
+- **Time and Date Handling:** Supports both offline and online synchronization of date and time for auth.
 - **Error Handling:** Ensures smooth operation with exception management for file operations and network tasks.
-
----
-
-## **Technology Stack**
-- **Programming Language:** Java
-- **UI Frameworks:** Swing, AWT
-- **File Handling Libraries:** Apache POI (for DOCX, XLSX, and PPTX creation)
-- **Tools:** Multithreading and concurrency utilities
 
 ---
 
@@ -35,22 +26,20 @@ The application features a robust backend for generating, managing, and evaluati
 
 2. **Setup:**
    - Clone the repository:  
-     ```bash
-     git clone <repository-link>
-     ```
-   - Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
+   - Open the project in your preferred IDE (we used apache netbeans).
    - Ensure all required dependencies are added to the project classpath.
 
 3. **Run:**
-   - Compile and run the main class (e.g., `ControllerClass.java` or `testerclass.java`).
+   - Compile and run the main class QUIZAPP.java present in "/QuizAPP/src/quizapp/QuizAPP.java".
 
 ---
 
-## **Project Structure**
-- **ControllerClass.java**  
-  - Handles core functionalities such as quiz generation, file operations, and user actions.
-- **FileCreator.java**  
-  - Automates the creation of documents in various formats (DOCX, XLSX, PPTX).
-- **testerclass.java**  
-  - Provides additional testing and helper functions for the application.
+## **Technology Stack**
+- **Programming Language:** Java
+- **UI Frameworks:** Swing, AWT
+- **File Handling Libraries:** Apache POI (for DOCX, XLSX, and PPTX creation)
+- **Tools:** Multithreading and concurrency utilities
 
+
+
+---
